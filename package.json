@@ -22,6 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^5.4.0",
     "@nestjs/core": "^5.4.0",
+    "@nestjs/swagger": "^2.5.1",
     "@types/morgan": "^1.7.35",
     "morgan": "^1.9.1",
     "nest-morgan": "^0.1.1",

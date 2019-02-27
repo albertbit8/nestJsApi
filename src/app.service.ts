@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): any {
-    return { frase: 'Hello World!' , data: Date.now() };
+  alive(): any {
+    return { msg: 'Hello World!' , data: Date.now() };
   }
 }
